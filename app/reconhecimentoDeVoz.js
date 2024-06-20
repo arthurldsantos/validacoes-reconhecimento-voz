@@ -21,3 +21,5 @@ function onSpeak(e) {
     exibeChuteNaTela(chute);
     verificaSeOChutePossuiUmValorValido(chute);
 }
+
+recognition.addEventListener('end', () => recognition.start());
