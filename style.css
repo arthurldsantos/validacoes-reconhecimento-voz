@@ -4,6 +4,8 @@
     --font-family: "Playfair Display", serif;
     --bg-color: #153448;
     --primary-color: #DFD0B8;
+    --secondary-color: #3C5B6F;
+    --third-color: #948979;
 }
 
 body {
@@ -43,4 +45,18 @@ h3 {
     font-size: 4em;
     padding: 10px;
     margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-jogar:hover {
+    background-color: var(--secondary-color);
+    border: 3px solid var(--primary-color);
+    color: var(--primary-color);
 }
